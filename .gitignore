@@ -1,0 +1,5 @@
+*.zip
+*.log
+
+gig_ocr_pack_app_dev_clean/tmp/*
+!gig_ocr_pack_app_dev_clean/tmp/.gitkeep
