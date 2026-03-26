@@ -1,12 +1,12 @@
 # gig_ocr_pack
 
-Repositorio dedicado ao pack OCR portatil usado pelo `GIG_app_dev`.
+Repositorio dedicado ao pack OCR portatil usado pelo `gig_app_dev`.
 
 ## Objetivo
 
 Manter o artefato OCR fora do repositorio principal do app, para que:
 
-- o `GIG_app_dev` continue enxuto;
+- o `gig_app_dev` continue enxuto;
 - o pack possa ser copiado, versionado e distribuido separadamente;
 - o uso no computador do trabalho continue baseado em `GIG_OCR_PACK_ROOT`.
 
@@ -24,7 +24,7 @@ Conveniencia local nao recomendada para versionamento em GitHub:
 
 O pack foi gerado a partir de:
 
-- `C:\Workspace\repos\gig\GIG_app_dev`
+- `C:\Workspace\repos\gig\gig_app_dev`
 
 Arquivos-fonte principais no app:
 
@@ -32,15 +32,15 @@ Arquivos-fonte principais no app:
 - `pdf_text_converter.py`
 - `docs/OCR_PORTATIL_TRABALHO.md`
 
-## Uso com GIG_app_dev
+## Uso com gig_app_dev
 
 1. Validar o pack com `gig_ocr_pack_app_dev_clean\check_ocr_pack.bat`.
-2. Rodar `gig_ocr_pack_app_dev_clean\run_gig_app_dev_with_ocr_pack.bat <CAMINHO_DO_REPO_GIG_app_dev>`.
+2. Rodar `gig_ocr_pack_app_dev_clean\run_gig_app_dev_with_ocr_pack.bat <CAMINHO_DO_REPO_DO_APP>`.
 
 Alternativa:
 
 1. Rodar `gig_ocr_pack_app_dev_clean\activate_ocr_pack.bat`.
-2. Abrir o `GIG_app_dev` no mesmo terminal.
+2. Abrir o `gig_app_dev` no mesmo terminal.
 
 ## Regra pratica
 
