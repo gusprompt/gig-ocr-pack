@@ -1,7 +1,7 @@
 @echo off
 setlocal
 if "%~1"=="" (
-  echo Uso: run_gig_app_dev_with_ocr_pack.bat ^<CAMINHO_DO_REPO_DO_APP^>
+  echo Uso: run_gig_with_ocr_pack.bat ^<CAMINHO_DO_REPO_DO_APP^>
   exit /b 1
 )
 set "PACK_ROOT=%~dp0"

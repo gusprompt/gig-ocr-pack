@@ -1,8 +1,8 @@
-GIG OCR PACK (para gig_app_dev)
+GIG OCR PACK (para gig_app)
 ===============================
 
 Objetivo:
-- permitir OCR no gig_app_dev sem instalacao com privilegio de administrador.
+- permitir OCR no gig_app sem instalacao com privilegio de administrador.
 
 Conteudo:
 - Tesseract-OCR
@@ -10,16 +10,17 @@ Conteudo:
 - ghostscript
 - ocr-runtime\python (runtime Python com pacotes OCR locais)
 - activate_ocr_pack.bat
+- run_gig_with_ocr_pack.bat
 - run_gig_app_dev_with_ocr_pack.bat
 - check_ocr_pack.bat
 
 Uso recomendado no computador do trabalho:
 1. Copie esta pasta inteira para qualquer local de usuario.
-2. No repo do gig_app_dev do trabalho, mantenha o codigo atualizado.
+2. No repo do gig_app do trabalho, mantenha o codigo atualizado.
 3. Rode check_ocr_pack.bat para validar o pack.
-4. Rode run_gig_app_dev_with_ocr_pack.bat <CAMINHO_DO_REPO_DO_APP>.
+4. Rode run_gig_with_ocr_pack.bat <CAMINHO_DO_REPO_DO_APP>.
 
 Alternativa:
 - rode activate_ocr_pack.bat para abrir um terminal com as variaveis de OCR ativas;
-  depois execute o gig_app_dev manualmente no mesmo terminal.
+  depois execute o gig_app manualmente no mesmo terminal.
 - o pack usa tmp local em GIG_OCR_TEMP_ROOT para evitar depender do TEMP do sistema.
